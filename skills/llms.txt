@@ -1,0 +1,26 @@
+# MacroGrace Intros
+
+> Intros that turn any static site into a presentation. Open-source agent skills, MIT licensed.
+
+Install for any agent: `npx skills add MD412/macrograce-intros`
+
+Install for Claude Code: `/plugin marketplace add MD412/macrograce-intros`, then `/plugin install intros-root@macrograce-intros` and `/plugin install build-intro-agentic@macrograce-intros`
+
+## Intros
+
+- [Agentic build](https://raw.githubusercontent.com/MD412/macrograce-intros/main/skills/build-intro-agentic/SKILL.md): Available. A start screen, a scan of the real layout, then labeled cursor agents build the actual page. [Live demo](https://dandoy-me.vercel.app/?build=1)
+- Blueprint: Coming soon
+- Typeset: Coming soon
+- Develop: Coming soon
+- Guided tour: Coming soon
+- Terminal boot: Coming soon
+
+## Skills
+
+- [intros-root](https://raw.githubusercontent.com/MD412/macrograce-intros/main/skills/intros-root/SKILL.md): Inspects a static site and picks an intro
+
+## Links
+
+- [Gallery](https://macrogracesystems.com/skills)
+- [Registry](https://macrogracesystems.com/skills/registry.json)
+- [Source](https://github.com/MD412/macrograce-intros)

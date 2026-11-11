@@ -1,0 +1,68 @@
+{
+  "name": "macrograce-intros",
+  "description": "Intros that turn any static site into a presentation.",
+  "homepage": "https://macrogracesystems.com/skills",
+  "repository": "https://github.com/MD412/macrograce-intros",
+  "license": "MIT",
+  "picker": {
+    "skill": "intros-root",
+    "path": "skills/intros-root/SKILL.md",
+    "install": {
+      "skills": "npx skills add MD412/macrograce-intros --skill intros-root",
+      "claudeCode": [
+        "/plugin marketplace add MD412/macrograce-intros",
+        "/plugin install intros-root@macrograce-intros"
+      ]
+    }
+  },
+  "intros": [
+    {
+      "rank": 1,
+      "id": "agentic-build",
+      "name": "Agentic build",
+      "status": "available",
+      "skill": "build-intro-agentic",
+      "path": "skills/build-intro-agentic/SKILL.md",
+      "description": "A start screen, a scan of the real layout, then labeled cursor agents build the actual page.",
+      "demo": "https://dandoy-me.vercel.app/?build=1",
+      "details": "https://macrogracesystems.com/skills/agentic-build-intro",
+      "install": {
+        "skills": "npx skills add MD412/macrograce-intros --skill build-intro-agentic",
+        "claudeCode": [
+          "/plugin marketplace add MD412/macrograce-intros",
+          "/plugin install build-intro-agentic@macrograce-intros"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "id": "blueprint",
+      "name": "Blueprint",
+      "status": "coming-soon"
+    },
+    {
+      "rank": 3,
+      "id": "typeset",
+      "name": "Typeset",
+      "status": "coming-soon"
+    },
+    {
+      "rank": 4,
+      "id": "develop",
+      "name": "Develop",
+      "status": "coming-soon"
+    },
+    {
+      "rank": 5,
+      "id": "guided-tour",
+      "name": "Guided tour",
+      "status": "coming-soon"
+    },
+    {
+      "rank": 6,
+      "id": "terminal-boot",
+      "name": "Terminal boot",
+      "status": "coming-soon"
+    }
+  ]
+}
